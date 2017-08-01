@@ -7,8 +7,10 @@ title: Hexo
 subtitle:
 description:
 author: John Doe
-language:
+language: zh-Hans
 timezone:
+
+
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -72,11 +74,21 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+# theme: again
+# theme: yilia
+# theme: magnetic
+theme: next
+
+# language: zh-Hans
+
+
+# Default post cover index page
+default_cover_index: "http://placehold.it/450x450"
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:git
-  repo:https://https://github.com/a834441154/a834441154.github.io.git
-  branch:master
+  type: git
+  repo: https://github.com/a834441154/a834441154.github.io.git
+  branch: master
