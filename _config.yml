@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: David
 subtitle:
 description:
-author: John Doe
+author: David
 language: zh-Hans
 timezone:
 
@@ -14,7 +14,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://greatdavid.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -82,6 +82,12 @@ theme: next
 
 # language: zh-Hans
 
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # Default post cover index page
 default_cover_index: "http://placehold.it/450x450"
